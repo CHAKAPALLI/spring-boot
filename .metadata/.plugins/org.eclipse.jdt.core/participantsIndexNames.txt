@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3666036292.index
+\TemplateCarService2_lecture06\src\main\java
+C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1657605417.index
+\TeachingApp\src\main\java
+C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2125263938.index
+\WebSite\src\main\java
+C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\466824540.index
+\Templatecarservice1\src\main\java
+C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1142827408.index
+\Website\src\main\java

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+
+	<!--Types of instructors -->
+	<bean class="com.codingNinjas.codingNinjasApp.JavaInstructor"
+		id="javaInstructor" init-method="init" destroy-method="cleanup"></bean>
+	<bean class="com.codingNinjas.codingNinjasApp.SpringInstructor"
+		id="springInstructor" init-method="init" destroy-method="cleanup"></bean>
+
+	<!-- user list interface with the simpleUserlist class-->
+	<bean class="com.codingNinjas.codingNinjasApp.SimpleUserList" id="userList" 
+	scope="prototype">
+	</bean>
+
+
+	<!--types of courses-->
+	<bean class="com.codingNinjas.codingNinjasApp.PaidCourse" id="javaCourse">
+		<constructor-arg ref="javaInstructor" />
+		<constructor-arg ref="userList" />
+	</bean>
+	<bean class="com.codingNinjas.codingNinjasApp.PaidCourse" id="springCourse">
+		<constructor-arg ref="springInstructor" />
+		<constructor-arg ref="userList" />
+	</bean>
+
+	<bean class="com.codingNinjas.codingNinjasApp.SimpleUser" scope="prototype" id="simpleUser"></bean>
+
+</beans>

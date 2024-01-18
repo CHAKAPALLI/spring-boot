@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\TemplateCarService2_lecture06"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\Templatecarservice1"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\TeachingApp"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\MovieBookingAPI"/>
+			<item value="C:\Users\Asus\Downloads\getPostSolution"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\MovieApplication"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\RailwayApplication"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\Hotel"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\HotelApplication"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\com.hotel"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\RESTful Services with Spring boot I"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\RetApi"/>
+			<item value="C:\Users\Asus\Downloads\Templet custom Service project"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\WebSite"/>
+			<item value="C:\Users\Asus\Documents\coding ninja\full stack java\spring boot\Website"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

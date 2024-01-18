@@ -1,0 +1,92 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--    TimeAndLocationBean-->
+    <bean id="timeAndLocation" class="com.example.Vaccination.TimeAndLocation" >
+        <constructor-arg name="timeSlot" value="" />
+        <constructor-arg name="location" value="" />
+        <constructor-arg name="date" value="" />
+    </bean>
+
+<!--    User beans-->
+    <bean id="fatherCovid" class="com.example.Vaccination.Father">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="covid"/>
+    </bean>
+    <bean id="fatherPolio" class="com.example.Vaccination.Father">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="polio"/>
+    </bean>
+    <bean id="fatherTyphoid" class="com.example.Vaccination.Father">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="typhoid"/>
+    </bean>
+    <bean id="motherCovid" class="com.example.Vaccination.Mother">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="covid"/>
+    </bean>
+    <bean id="motherPolio" class="com.example.Vaccination.Mother">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="polio"/>
+    </bean>
+    <bean id="motherTyphoid" class="com.example.Vaccination.Mother">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="typhoid"/>
+    </bean>
+    <bean id="selfCovid" class="com.example.Vaccination.Self">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="covid"/>
+    </bean>
+    <bean id="selfPolio" class="com.example.Vaccination.Self">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="polio"/>
+    </bean>
+    <bean id="selfTyphoid" class="com.example.Vaccination.Self">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="typhoid"/>
+    </bean>
+    <bean id="spouseCovid" class="com.example.Vaccination.Spouse">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="covid"/>
+    </bean>
+    <bean id="spousePolio" class="com.example.Vaccination.Spouse">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="polio"/>
+    </bean>
+    <bean id="spouseTyphoid" class="com.example.Vaccination.Spouse">
+        <constructor-arg name="timeAndLocation"  >
+            <ref bean="timeAndLocation" />
+        </constructor-arg>
+        <constructor-arg name="vaccine" ref="typhoid"/>
+    </bean>
+
+<!--    Vaccine beans-->
+    <bean id="covid" class="com.example.Vaccination.Covid" />
+    <bean id="typhoid" class="com.example.Vaccination.Typhoid" />
+    <bean id="polio" class="com.example.Vaccination.Polio" />
+
+</beans>
